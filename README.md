@@ -2,28 +2,28 @@
 
 # Table of Contents
 
-[1. Project Motivation] (#Project-Motivation)
+[1. Project Motivation](#Project-Motivation)
 
-[2. Installation] (#Installation)
+[2. Installation](#Installation)
 
-[3. File Description] (#File-Description)
+[3. File Description](#File-Description)
 
-[4. Instructions] (#Instructions)
+[4. Instructions](#Instructions)
 
-#Project Motivation
+# Project Motivation
 For this project, we used the disaster data from Figure Eight to build a model to classify disaster messages. A pipeline and a web app are built such that future new messages can be processed smoothly and that results can be visualized easily.  
 
-#Installation
-Below are the libraries require for this project:
-SQLAlchemy==1.2.1
-numpy==1.14.0
-Flask==0.12.2
-nltk==3.2.5
-pandas==0.22.0
-plotly==4.13.0
-scikit_learn==0.23.2 
+# Installation
+Below are the libraries require for this project: 
+SQLAlchemy==1.2.1 
+numpy==1.14.0 
+Flask==0.12.2 
+nltk==3.2.5 
+pandas==0.22.0 
+plotly==4.13.0 
+scikit_learn==0.23.2  
 
-#File Description
+# File Description
 * data folder contains:
   * disaster_categories.csv: disaster categories csv file
   * disaster_messages.csv: disaster messages csv file
@@ -32,11 +32,11 @@ scikit_learn==0.23.2
 * models folder contains:
   * classifier.pkl: pickle file of classifier 
   * train_classifies.py: script in building the model
-* app
+* app folder contains:
   * run.py: run the pipeline as Flask application
 * requirements.txt: libraries required for the project
 
-# Instructions:
+# Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
